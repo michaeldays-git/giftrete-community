@@ -14,5 +14,5 @@ Scenario: Valid registration
 	And I enter phone number
 	And I enter password
 	And I re-enter password to confirm password
-	And I click on register now!
+	And I click register now!
 	Then I must be successfully registered
