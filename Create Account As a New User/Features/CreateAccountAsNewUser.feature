@@ -6,7 +6,7 @@
 
 @CreateAccountAsNewUser
 Scenario: Valid registration
-	Given that I am a user on Giftrete website (www.giftrete.com) 
+	Given I am a user on Giftrete website 
 	When I click on create account button
 	And I enter email address
 	And I enter first name
@@ -14,5 +14,5 @@ Scenario: Valid registration
 	And I enter phone number
 	And I enter password
 	And I re-enter password to confirm password
-	And I click register now!
+	And I click on register now!
 	Then I must be successfully registered

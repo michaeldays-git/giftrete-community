@@ -101,7 +101,7 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 9
- testRunner.Given("that I am a user on Giftrete website (www.giftrete.com)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I am a user on Giftrete website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 10
  testRunner.When("I click on create account button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
